@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ashirwad Mishra - Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .section-title {
+      border-bottom: 2px solid #D1D5DB;
+      padding-bottom: 8px;
+      margin-bottom: 24px;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #111827;
+    }
+    .project .company, .education-item .university {
+      font-weight: 600;
+    }
+    .education-item .period {
+      color: #4B5563;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="container mx-auto max-w-4xl p-4 sm:p-8 bg-white shadow-lg rounded-lg my-8">
+
+    <!-- Header -->
+    <header class="text-center mb-10">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900">Ashirwad Mishra</h1>
+      <p class="text-xl sm:text-2xl text-blue-600 mt-2">Software Developer | Problem Solver</p>
+    </header>
+
+    <!-- Contact -->
+    <section class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 mb-10 text-sm text-gray-600">
+      <a href="https://my-portfolio-livid-two-15.vercel.app/" class="hover:text-blue-600" target="_blank">My Portfolio</a>
+      <span>&bull;</span>
+      <span>+91-9934882193</span>
+      <span>&bull;</span>
+      <span>India</span>
+      <span>&bull;</span>
+      <a href="https://www.linkedin.com/in/ashirwad-mishra-6248b8292/" target="_blank" class="hover:text-blue-600">LinkedIn</a>
+      <span>&bull;</span>
+      <a href="https://github.com/Ashirwad-Mishra" target="_blank" class="hover:text-blue-600">GitHub</a>
+    </section>
+
+    <!-- Summary -->
+    <section class="mb-8">
+      <h2 class="section-title">Professional Summary</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Self-driven and passionate Software Developer with a strong foundation in C++, Java, and full-stack web development. Experienced in solving 1000+ DSA problems across platforms like LeetCode and CodeChef, and building real-world projects with React, Spring Boot, and relational databases. Eager to tackle challenging problems, contribute to impactful projects, and continuously grow as a developer.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section class="mb-8">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project mb-6">
+        <a href="https://ashirwad-mishra.github.io/bhagvat-geeta-app/" target="_blank" class="text-blue-600 hover:underline">
+          <h3 class="text-lg font-semibold text-gray-800">Bhagvat Geeta Web App</h3>
+        <h3 class="text-lg font-semibold text-gray-800">Bhagvat Geeta</h3>
+        <p class="company text-blue-600 mb-2">Tech Stack: React, Git, GitHub</p>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>Integrated technology & spirituality by making a webApp using react with javaScript, where users can read Bhagvat Geeta in three languages Sankrit , Hindi and English. </li>
+          <li>Stored all the verses with chapter name, verse id and translations in a json type javaScript file and send it to the user end the moment app is loaded to reduce the in between loading time to zero.</li>
+          <li>Implemented pegination to make it eisier to read, Also added search bar where one can directly search a verse through chapter number, followed by verse number and dirctly jump to that verse.</li>
+        </ul>
+        </a>
+      </div>
+
+      <div class="project mb-6">
+        <a href="https://github.com/Ashirwad-Mishra/to_do_app" target="_blank" class="text-blue-600 hover:underline">
+          <h3 class="text-lg font-semibold text-gray-800">To-Do App</h3>
+        <h3 class="text-lg font-semibold text-gray-800">Task Manager</h3>
+        <p class="company text-blue-600 mb-2">Tech Stack: TypeScript , react , vite, springboot</p>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>Developed a task manager that helps user manage their tasks.</li>
+          <li>Added featues such as alarm, calender and clock.</li>
+          <li>Received positive feedback from peers and professors for its accuracy and design.</li>
+        </ul>
+        </a>
+      </div>
+
+      <div class="project mb-6">
+        <a href="https://github.com/Ashirwad-Mishra/Ashirwad-s-Bank" target="_blank" class="text-blue-600 hover:underline">
+          <h3 class="text-lg font-semibold text-gray-800">Ashirwad's Bank</h3>
+        <h3 class="text-lg font-semibold text-gray-800">Console Bank Management System</h3>
+        <p class="company text-blue-600 mb-2">Tech Stack: C++, OOP</p>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>Created a command-line based bank system with deposit, withdrawal, and account management features.</li>
+          <li>Practiced file handling and object-oriented programming by simulating real bank operations.</li>
+        </ul>
+        </a>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="mb-8">
+      <h2 class="section-title">Achievements & Competitive Programming</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Solved 600+ problems on LeetCode and 300+ problems on CodeChef.</li>
+        <li>Rank improvement and consistency in weekly contests; aim to reach Knight level.</li>
+        <li>Actively practiced DSA patterns including Binary Search, Two Pointers, Prefix Sum, and Trees.</li>
+        <li>Built a disciplined roadmap for mastering advanced DSA and algorithmic thinking.</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section class="mb-8">
+      <h2 class="section-title">Skills</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+        <div>
+          <h4 class="font-semibold text-gray-800 mb-2">Languages</h4>
+          <ul class="list-none text-gray-700">
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-gray-800 mb-2">Frameworks/Libraries</h4>
+          <ul class="list-none text-gray-700">
+            <li>React</li>
+            <li>Spring Boot</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-gray-800 mb-2">Databases</h4>
+          <ul class="list-none text-gray-700">
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-gray-800 mb-2">Tools & Platforms</h4>
+          <ul class="list-none text-gray-700">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Vercel</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2 class="section-title">Education</h2>
+      <div class="education-item">
+        <div class="flex justify-between items-baseline">
+          <h3 class="text-lg font-semibold text-gray-800">B.Tech in Computer Science & Engineering</h3>
+          <p class="period text-sm">Expected 2027</p>
+        </div>
+        <p class="company text-blue-600">ABES Engineering College, Ghaziabad, Uttar Pradesh</p>
+        <p class="university text-blue-600">Dr. A.P.J. Abdul Kalam Technical University (AKTU)</p>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
